@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="gu">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#13091f">
+<title>Amitbhai માટે દિવાળી સરપ્રાઇઝ | SHREEJI</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 20%,#4b205b 0,#1a1029 48%,#08070d 100%);color:#fff;font-family:system-ui,"Noto Sans Gujarati",sans-serif;display:grid;place-items:center;padding:20px;overflow-x:hidden}
+.wrap{width:min(100%,480px);text-align:center}.brand{font-size:12px;letter-spacing:3px;color:#f7d889;font-weight:800;margin-bottom:12px}
+h1{font-family:Georgia,serif;color:#ffe6a0;font-size:clamp(28px,8vw,40px);font-weight:500;margin:0 0 7px}.intro{color:#f0dcb5;font-size:14px;margin:0 0 20px}
+.stage{position:relative;padding:20px 14px 24px;border:1px solid #b78b45;border-radius:24px;background:linear-gradient(145deg,#24112cdd,#100c18ee);box-shadow:0 18px 60px #0009}
+.stars{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}.star{position:absolute;color:#ffe8a1;animation:twinkle 2s infinite alternate}.star:nth-child(1){top:10%;left:12%}.star:nth-child(2){top:18%;right:12%;animation-delay:.7s}.star:nth-child(3){bottom:15%;left:8%;animation-delay:1s}.star:nth-child(4){bottom:20%;right:9%;animation-delay:.4s}
+@keyframes twinkle{from{opacity:.25;transform:scale(.7)}to{opacity:1;transform:scale(1.3)}}
+.envelope{position:relative;width:min(100%,310px);height:190px;margin:22px auto 10px;cursor:pointer;perspective:900px;filter:drop-shadow(0 14px 18px #0009)}
+.envbody{position:absolute;inset:0;border-radius:8px;background:linear-gradient(135deg,#f4d17d,#a45b27 58%,#6f2c37);overflow:hidden}
+.envbody:before,.envbody:after{content:"";position:absolute;inset:0;background:linear-gradient(32deg,transparent 49.3%,#f9df9b 50%,transparent 50.8%),linear-gradient(-32deg,transparent 49.3%,#eabf69 50%,transparent 50.8%)}
+.flap{position:absolute;z-index:4;inset:0 0 auto;height:58%;background:linear-gradient(145deg,#ffe5a0,#b87832);clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;transition:transform 1s ease;filter:drop-shadow(0 4px 3px #391a18)}
+.seal{position:absolute;z-index:5;top:47%;left:50%;transform:translate(-50%,-50%);width:50px;height:50px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#fff0b5,#9d202c 70%);border:2px solid #f5d88d;color:#ffe9a9;font-size:23px;box-shadow:0 0 20px #ffc45a88}
+.letter{position:absolute;z-index:2;left:5%;width:90%;height:92%;bottom:3%;border-radius:6px;background:linear-gradient(#fff5d9,#f1d7a1);color:#54232b;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;transition:transform 1s .35s}
+.letter b{font: bold 21px Georgia,serif}.letter small{margin-top:7px}
+.envelope.open .flap{transform:rotateX(180deg);z-index:1}.envelope.open .letter{transform:translateY(-105px);z-index:3}
+.hint{color:#e8d5ac;font-size:13px}.reveal{display:none;animation:rise 1s ease both;margin-top:18px}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.reveal h2{font-family:Georgia,serif;color:#ffe6a0;font-size:34px;margin:8px 0}.reveal p{line-height:1.85;color:#fff0d0;font-size:16px;margin:10px 0}
+.diyas{font-size:30px;letter-spacing:8px;filter:drop-shadow(0 0 9px #ffb53c)}
+.brandplate{display:inline-block;margin-top:15px;padding:11px 20px;border:1px solid #d4a64d;border-radius:13px;background:linear-gradient(120deg,#481a39,#160d1d);color:#ffe6a0;font-family:Georgia,serif;letter-spacing:2px}
+.actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:15px}button{border:1px solid #d8ae5b;border-radius:99px;padding:11px 16px;background:linear-gradient(120deg,#ffe6a0,#c28a35);color:#291323;font-weight:750;font-size:14px}
+.foot{font-size:10px;letter-spacing:2px;color:#c6a979;margin-top:17px}
+</style>
+</head>
+<body>
+<main class="wrap">
+<div class="brand">✦ SHREEJI DIGITAL GREETINGS ✦</div>
+<h1>એક ખાસ દિવાળી સરપ્રાઇઝ!</h1>
+<p class="intro">પ્રિય Amitbhai અને પરિવાર માટે પ્રેમભરી શુભેચ્છા</p>
+<section class="stage">
+<div class="stars"><span class="star">✦</span><span class="star">✧</span><span class="star">✦</span><span class="star">✧</span></div>
+<div class="diyas">🪔 ✨ 🪔</div>
+<div class="envelope" id="env" role="button" tabindex="0" aria-label="પરબીડિયું ખોલો">
+<div class="letter"><b>પ્રિય Amitbhai</b><small>તમારા માટે એક ખાસ સંદેશો...</small></div>
+<div class="envbody"></div><div class="flap"></div><div class="seal">ૐ</div>
+</div>
+<div class="hint" id="hint">🎁 પરબીડિયાને સ્પર્શ કરીને ખોલો</div>
+<div class="reveal" id="reveal">
+<div class="diyas">🪔 ✨ 🪔</div>
+<h2>દિવાળીની હાર્દિક શુભકામનાઓ!</h2>
+<p>પ્રિય Amitbhai,<br>તમને અને તમારા સમગ્ર પરિવારને સુખ, શાંતિ, સ્વાસ્થ્ય અને સમૃદ્ધિથી ભરેલી દિવાળીની હાર્દિક શુભકામનાઓ.<br>તમારા જીવનમાં ખુશીઓના દીવા હંમેશાં ઝળહળતા રહે અને દરેક દિવસ નવી આશા તથા સફળતા લઈને આવે. 🙏</p>
+<div class="diyas">🌸 🪔 🌸</div>
+<div class="brandplate">SHREEJI<br><small>DIGITAL GREETINGS</small></div>
+<div class="actions"><button id="voice">🔊 શુભેચ્છા સાંભળો</button><button id="share">WhatsApp પર મોકલો</button></div>
+</div>
+</section>
+<div class="foot">MADE WITH LOVE · SHREEJI</div>
+</main>
+<script>
+const env=document.getElementById('env'), reveal=document.getElementById('reveal');
+function openGift(){if(env.classList.contains('open'))return;env.classList.add('open');document.getElementById('hint').textContent='✨ તમારી શુભેચ્છા આવી રહી છે...';setTimeout(()=>{reveal.style.display='block';document.getElementById('hint').textContent='તમારા માટે પ્રેમભરી શુભેચ્છા ❤️';},950)}
+env.addEventListener('click',openGift);env.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openGift()}});
+document.getElementById('voice').addEventListener('click',()=>{if(!('speechSynthesis'in window)){alert('આ બ્રાઉઝરમાં અવાજ ઉપલબ્ધ નથી.');return}speechSynthesis.cancel();let u=new SpeechSynthesisUtterance('પ્રિય અમિતભાઈ, તમને અને તમારા સમગ્ર પરિવારને દિવાળીની હાર્દિક શુભકામનાઓ. તમારા જીવનમાં સુખ, શાંતિ અને સમૃદ્ધિ રહે.');u.lang='gu-IN';u.rate=.85;speechSynthesis.speak(u)});
+document.getElementById('share').addEventListener('click',()=>{let msg='પ્રિય Amitbhai, તમારી માટે ખાસ દિવાળી સરપ્રાઇઝ! 🪔✨ આ લિંક ખોલો: '+location.href;location.href='https://wa.me/?text='+encodeURIComponent(msg)});
+</script>
+</body></html>
